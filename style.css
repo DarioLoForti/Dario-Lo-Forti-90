@@ -1,0 +1,75 @@
+body{
+    background-image: url(Immagini/background.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+
+*{
+    font-family: 'Martian Mono', monospace;
+}
+
+.contenitore{
+    background-color:rgba(0, 0, 0, 0.6);
+    width: 1100px;
+    height: 800px;
+    border-radius: 20px;
+    margin: auto;
+    text-align: center;
+    margin-top: 20px;
+}
+    
+.logo{
+    width: 50;
+    height: 100px;
+    margin-top: 100px;
+}
+
+.testo-logo{
+    color:rgb(80, 252, 0);
+}
+
+nav{
+    background-color:  rgb(80, 252, 0);
+    line-height: 50px;
+    text-align: center;
+    margin: auto;
+    width: 80%;
+}
+
+main{
+    text-align: left;
+    margin: auto;
+    width: 80%;
+    margin-top: 20px;
+    color: white;
+}
+
+.titolo{
+    font-size: 20px;
+}
+
+.livello1, .livello2, .livello3{
+    margin: left;
+    display: inline-block;
+    line-height: 20px;
+    border-radius: 4px;
+}
+
+.livello1{
+    background-color: orange;
+    width: 28%;
+    color: orange;
+}
+
+.livello2{
+    background-color: rgb(81, 238, 8);
+    width: 50%;
+    color:rgb(81, 238, 8);   
+}
+    
+.livello3{
+    background-color: rgb(216, 53, 24);
+    width: 15%;
+    color:rgb(216, 53, 24);
+}
+
